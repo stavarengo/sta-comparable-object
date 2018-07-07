@@ -1,0 +1,21 @@
+{
+    "name": "stavarengo/sta-comparable-object",
+    "description": "Declares an interface for object comparison like Java.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rafael Stavarengo",
+            "email": "faelsta@gmail.com",
+            "homepage": "https://www.linkedin.com/in/stavarengo"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "Sta\\ComparableObject\\": "src/ComparableObject/"
+        }
+    }
+}
